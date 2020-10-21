@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Latitude Home</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="stylesheet.css">
+   </head>
+   <body style="background-color: rgba(0,0,0,0.25)">
+       <div class="navbar">
+          <a class="char1" href="./data.html">Data</a>
+          <a class="char1" href="./comparison.html">Comparison</a>
+          <div class="dropdown">
+             <button class="dropbtn">Plots
+             <i class="fa fa-caret-down"></i>
+             </button>
+             <div class="dropdown-content">
+                <a href="./temperature.html">Max Temperature</a>
+                <a href="./humidity.html">Humidity</a>
+                <a href="./cloudiness.html">Cloudiness</a>
+                <a href="./wind.html">Wind Speed</a>
+             </div>
+          </div>
+          <a class="char2" href="./landingpage.html">Latitude</a>
+       </div>
+      <div class="row">
+         <div class="column1" style="background-color:#ffffff;">
+            <h2 style=" padding:1.5em; color: #44bba1">Summary: Latitude vs. X </h2>
+            <p style="text-align: justify;  padding:1.5em;
+               text-justify: inter-word;">
+               <img src="temperature.png" width="65%"  alt="temperature" style="float:left">
+               The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities. <br><br><br>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included: temperature, cloudiness, wind speed and humidity. This site provides the source data and visualizations created as part of the analysis, as well as explainations of any trends and correlations witnessed.
+            </p>
+         </div>
+         <div class="column2" style="background-color:#ffffff;">
+            <h2 style="text-align: center; color: #44bba1"> Visualizations </h2>
+            <a href="./temperature.html"> <img src="temperature.png" width="45%" alt="humidity" style="float:left ; margin-bottom: 16px ;"></a>
+            <a href="./humidity.html"> <img src="humidity.png" width="45%" alt="humidity" style="float:right; margin-bottom: 16px"></a>
+            <a href="./cloudiness.html"> <img src="cloudiness.png" width="45%" alt="cloudiness" style="float:left"></a>
+            <a href="./wind.html"> <img src="wind.png" width="45%" alt="wind" style="float:right"></a>
+         </div>
+      </div>
+   </body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Humidity</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="stylesheet.css">
+   </head>
+   <body style="background-color: rgba(0,0,0,0.25)">
+       <div class="navbar">
+          <a class="char1" href="./data.html">Data</a>
+          <a class="char1" href="./comparison.html">Comparison</a>
+          <div class="dropdown">
+             <button class="dropbtn">Plots
+             <i class="fa fa-caret-down"></i>
+             </button>
+             <div class="dropdown-content">
+                <a href="./temperature.html">Max Temperature</a>
+                <a href="./humidity.html">Humidity</a>
+                <a href="./cloudiness.html">Cloudiness</a>
+                <a href="./wind.html">Wind Speed</a>
+             </div>
+          </div>
+          <a class="char2" href="./landingpage.html">Latitude</a>
+       </div>
+      <div class="row">
+         <div class="column1" style="background-color:#ffffff;">
+            <h2 style=" padding:1.5em; color: #44bba1">Summary: Latitude vs. Humidity </h2>
+            <p style="text-align: justify;  padding:1.5em;
+               text-justify: inter-word;">
+               <img src="humidity.png" width="65%"  alt="humidity" style="float:left">
+               Stable trends in humidity levels show in this plot.
+            </p>
+         </div>
+         <div class="column2" style="background-color:#ffffff;">
+            <h2 style="text-align: center; color: #44bba1"> Visualizations </h2>
+            <a href="./temperature.html"> <img src="temperature.png" width="44%" alt="humidity" style="float:left ; margin-bottom: 16px ;"></a>
+            <img src="humidity.png" width="45%" alt="humidity" style="float:right ; margin-bottom: 10px ; border: 2px solid #44bba1">
+            <a href="./cloudiness.html"> <img src="cloudiness.png" width="44%" alt="cloudiness" style="float:left"></a>
+            <a href="./wind.html"> <img src="wind.png" width="45%" alt="wind" style="float:right"></a>
+         </div>
+      </div>
+   </body>
+</html>
